@@ -57,7 +57,7 @@ body {
 }
 
 .header .logo img {
-    height: 6rem;
+  height: 6rem;
 }
 
 .header .navbar a {
@@ -78,6 +78,7 @@ body {
   font-size: 2.5rem;
   margin-left: 2rem;
 }
+
 .header .icons div:hover {
   color: var(--main-color);
 }
@@ -88,7 +89,8 @@ body {
 
 .header .search-form {
   position: absolute;
-  top: 115%; right: 7%;
+  top: 115%;
+  right: 7%;
   background: #fff;
   width: 50rem;
   height: 5rem;
@@ -102,7 +104,7 @@ body {
   font-size: 1.6rem;
   color: var(--black);
   padding: 1rem;
-  text-transform: none  ;
+  text-transform: none;
 }
 
 .wheel-and-hamster {
