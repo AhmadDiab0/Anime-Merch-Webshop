@@ -114,6 +114,15 @@ body {
   color: var(--black);
 }
 
+.header .cart-items-container {
+  position: absolute;
+  top: 100%; right: 0%;
+  height: calc(100vh - 9.5rem);
+  width: 35rem;
+  background: #fff;
+  padding: 1.5rem;
+}
+
 .wheel-and-hamster {
   --dur: 1s;
   position: relative;
