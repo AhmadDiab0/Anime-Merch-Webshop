@@ -89,16 +89,17 @@ body {
 
 .header .search-form {
   position: absolute;
-  top: 115%;
-  right: 7%;
+  top: 115%; right: 7%;
   background: #fff;
   width: 50rem;
   height: 5rem;
   display: flex;
   align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
 }
 
-.header search-form input {
+.header .search-form input {
   height: 100%;
   width: 100%;
   font-size: 1.6rem;
@@ -114,9 +115,12 @@ body {
   color: var(--black);
 }
 
+.header .search-form label:hover {
+  color: var(--main-color);
+}
 .header .cart-items-container {
   position: absolute;
-  top: 100%; right: 0%;
+  top: 100%; right: 0;
   height: calc(100vh - 9.5rem);
   width: 35rem;
   background: #fff;
@@ -132,7 +136,7 @@ body {
 }
 
 .header .cart-items-container .cart-item .fa-times {
-  position: absolute;
+  position: relative;
   top: 1rem; right: 1rem;
   font-size: 2rem;
   cursor: pointer;
