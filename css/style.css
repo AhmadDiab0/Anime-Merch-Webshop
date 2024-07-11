@@ -89,7 +89,8 @@ body {
 
 .header .search-form {
   position: absolute;
-  top: 115%; right: 7%;
+  top: 115%;
+  right: 7%;
   background: #fff;
   width: 50rem;
   height: 5rem;
@@ -118,13 +119,15 @@ body {
 .header .search-form label:hover {
   color: var(--main-color);
 }
+
 .header .cart-items-container {
   position: absolute;
-  top: 100%; right: 0;
+  top: 100%;
+  right: 0;
   height: calc(100vh - 9.5rem);
   width: 35rem;
   background: #fff;
-  padding:0 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .header .cart-items-container .cart-item {
@@ -137,7 +140,8 @@ body {
 
 .header .cart-items-container .cart-item .fa-times {
   position: relative;
-  top: 1rem; right: 1rem;
+  top: 1rem;
+  right: 1rem;
   font-size: 2rem;
   cursor: pointer;
   color: var(--black);
@@ -156,6 +160,7 @@ body {
   color: var(--black);
   padding-bottom: .5rem;
 }
+
 .wheel-and-hamster {
   --dur: 1s;
   position: relative;
