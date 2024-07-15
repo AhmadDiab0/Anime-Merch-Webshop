@@ -136,9 +136,7 @@ body {
 
 .header .cart-items-container {
   position: absolute;
-  top: 100%;
-  right: -100%;
-  right: 0;
+  top: 100%; right: -100%;
   height: calc(100vh - 9.5rem);
   width: 35rem;
   background: #fff;
@@ -185,6 +183,18 @@ body {
   width: 100%;
   text-align: center;
 
+}
+
+@media (max-width:991px) {
+  #menu-btn {
+    display: inline-block;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 100%; right: 0;
+    background: #fff;
+    background: 30rem;
+  }
 }
 
 .wheel-and-hamster {
